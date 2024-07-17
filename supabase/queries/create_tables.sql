@@ -1,18 +1,3 @@
-drop table if exists public.ai_messages;
-
-create table
-  public.ai_messages (
-    id uuid not null default gen_random_uuid (),
-    conversation_id uuid not null,
-    content text not null,
-    created_at timestamp with time zone not null default now(),
-    feedback character varying(4) null,
-    constraint ai_messages_pkey primary key (id),
-    constraint ai_messages_conversation_id_fkey foreign key (conversation_id) references conversations (id) on update cascade on delete cascade
-  ) tablespace pg_default;
-
--- create trigger before_insert_ai_messages before insert on ai_messages for each row
--- execute function upsert_conversation ();
 drop table if exists public.conversations;
 
 create table
@@ -28,6 +13,23 @@ create table
 -- create trigger after_conversation_status_update before
 -- update of status on conversations for each row
 -- execute function handle_conversation_status_update ();
+
+drop table if exists public.ai_messages;
+
+create table
+  public.ai_messages (
+    id uuid not null default gen_random_uuid (),
+    conversation_id uuid not null,
+    content text not null,
+    created_at timestamp with time zone not null default now(),
+    feedback character varying(4) null,
+    constraint ai_messages_pkey primary key (id),
+    constraint ai_messages_conversation_id_fkey foreign key (conversation_id) references conversations (id) on update cascade on delete cascade
+  ) tablespace pg_default;
+
+-- create trigger before_insert_ai_messages before insert on ai_messages for each row
+-- execute function upsert_conversation ();
+
 drop table if exists public.human_messages;
 
 create table
@@ -45,6 +47,7 @@ create table
 
 -- create trigger before_insert_human_messages before insert on human_messages for each row
 -- execute function upsert_conversation ();
+
 drop table if exists public.profiles;
 
 create table
@@ -71,6 +74,7 @@ create table
     closed_at timestamp with time zone null,
     closed_by uuid null,
     last_sent_at timestamp with time zone null,
+    rating numeric null,
     constraint support_pkey primary key (id),
     constraint support_conversation_id_fkey foreign key (conversation_id) references conversations (id) on update cascade on delete cascade,
     constraint support_accepted_by_fkey foreign key (accepted_by) references auth.users (id) on update cascade on delete cascade,
