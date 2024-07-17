@@ -1,0 +1,92 @@
+Pergunta: Quais são os campos obrigatórios para emissão de boletos com registro no sistema Lyceum e quais as limitações de caracteres?
+
+Resposta:
+No cadastro do Lyceum, os campos obrigatórios para a emissão de boletos com registro são:
+
+- Nome completo
+- CPF/CNPJ
+- Endereço completo (incluindo rua, número, bairro, cidade, estado e CEP)
+
+Além disso, é importante observar que o boleto emitido pelo banco Santander não pode superar 40 caracteres nos campos obrigatórios, incluindo espaços. Para evitar problemas, o nome do aluno deve ter até 40 caracteres e o endereço também deve ser limitado a 40 caracteres. Uma dica útil é abreviar palavras como QUADRA (QD), CONJUNTO (CJ) e CASA (CS) se o endereço for muito longo. Outro ponto crucial é que o CEP deve ser válido; para verificar a validade, é possível usar um recurso online de consulta de CEP (http://www.buscacep.correios.com.br/sistemas/buscacep/).
+
+Pergunta: Um aluno do Prouni pode solicitar cancelamento?
+
+Resposta: Sim, o aluno do Prouni pode solicitar o cancelamento a qualquer momento.
+
+Pergunta: Com o cancelamento do Prouni, o aluno receberá algum valor pago ao IESB de volta (para modalidades EAD/Híbrido)?
+
+Resposta:
+Quanto à devolução de valores pagos ao IESB:
+
+- Se o cancelamento ocorrer por não formação de turma, haverá devolução integral.
+- Se o cancelamento for solicitado antes do início das aulas, será retida a multa rescisória e o restante será devolvido.
+- Se o cancelamento for solicitado após o início das aulas, haverá cobrança proporcional ao tempo cursado e, se houver crédito, este será devolvido.
+
+Pergunta: Quero Bolsa - Alunos já matriculados ou que tenham vínculo estudantil com a instituição atual podem obter bolsa?
+
+Resposta: Não, alunos já matriculados ou que tenham vínculo estudantil com a instituição atual não podem obter bolsa. Por exemplo, se você está matriculado na Instituição X sem bolsa e deseja se matricular paralelamente no IESB, ou já está matriculado no IESB e deseja fazer um curso paralelo também no IESB, não poderá obter bolsa.
+
+Pergunta: Quero Bolsa - Alunos transferidos de outra instituição podem obter bolsa?
+
+Resposta: Não, alunos transferidos de outra instituição não podem obter bolsa.
+
+Pergunta: Quero Bolsa - Alunos já matriculados que trancaram ou desistiram do curso podem obter bolsa?
+
+Resposta: Não, alunos que já estavam matriculados e trancaram ou desistiram do curso não podem obter bolsa.
+
+Pergunta: Quero Bolsa - Alunos que já tenham graduação completa nesta instituição podem obter bolsa?
+
+Resposta: Não, alunos que já completaram uma graduação nesta instituição não podem obter bolsa, exceto para a segunda licenciatura.
+
+Pergunta: Quero Bolsa - Alunos que já tenham graduação completa em qualquer outra instituição podem obter bolsa?
+
+Resposta: Não, alunos que já tenham completado uma graduação em qualquer outra instituição não podem obter bolsa, exceto para a segunda licenciatura.
+
+Pergunta: Quero Bolsa - Quais são os requisitos para ingressar com a bolsa?
+
+Resposta: O aluno deve ingressar por vestibular ou ENEM (com exceção de segunda licenciatura em pedagogia) e não pode solicitar o aproveitamento de estudos.
+
+Pergunta: Quero Bolsa - Como funciona o reembolso após o pagamento da pré-matrícula?
+
+Resposta:
+Após o pagamento da pré-matrícula, você tem um prazo de até 6 meses para:
+
+1) Solicitar a troca da bolsa por outro curso, turno ou faculdade, caso não tenha finalizado a matrícula ainda.
+2) Solicitar o reembolso do valor pago na pré-matrícula, com um prazo de até 30 dias úteis.
+
+Para qualquer um desses casos, é necessário entrar em contato com a Quero Bolsa por um dos canais de atendimento disponíveis (https://querobolsa.com.br/).
+
+Pergunta: O aluno pode solicitar trancamento de matrícula se houver pendência financeira?
+
+Resposta: Sim, pode. No entanto, a inadimplência permanecerá vinculada ao nome do aluno enquanto não houver a quitação do débito. E ao solicitar a reabertura, a mesma somente poderá ser realizada mediante a quitação do débito.
+
+Pergunta: O que acontece com o cancelamento solicitado após o início do curso com apenas a matrícula paga?
+
+Resposta: O aluno deverá pagar o valor proporcional até a data da solicitação do cancelamento, conforme estipulado no contrato.
+
+Pergunta: Caso o aluno já tenha pago o acordo, será aproveitado no próximo módulo?
+
+Resposta: Exatamente, os valores que foram pagos e não utilizados serão aproveitados no próximo módulo automaticamente.
+
+Pergunta: Para quais empresas de cobrança os débitos são encaminhados?
+
+Resposta:
+Débitos encaminhados para ALPE:
+
+- Graduação Presencial IESB Norte e IESB Sul (a partir de 2010)
+- Pós-Graduação Presencial
+ 
+Débitos encaminhados para COBRAFIX:
+
+- Graduação Presencial (anterior a 2010 IESB Norte e IESB Sul)
+- Graduação Presencial IESB Oeste
+- Graduação EAD a partir do 2º/2015
+- Pós-Graduação EAD
+
+Pergunta: Quando são processadas as devoluções?
+
+Resposta: As devoluções só são processadas até o dia 20 de cada mês. Após essa data, não são feitas devoluções, apenas no próximo mês.
+
+Pergunta: Como funciona a proposta de negociação para a renovação de matrícula?
+
+Resposta: O setor financeiro analisa caso a caso a situação dos alunos que não renovaram sua matrícula no prazo correto, mas ainda têm interesse em retomar os estudos. O aluno deve apresentar detalhadamente o motivo da não renovação no prazo correto (prints e anexos podem ser utilizados). O financeiro irá analisar essas evidências e a proposta de pagamento do estudante. O fluxo para essa solicitação é: Canal Direto - Aluno on-line > Fale com o Financeiro > Proposta de Negociação.

@@ -1,59 +1,73 @@
-# Informações Gerais:
+Pergunta: O que é o Centro Universitário IESB?
 
-O Centro Universitário IESB é uma instituição privada de ensino superior com sede em Brasília. Possui três campi no Distrito Federal e Polos de apoio presencial em todas as regiões do Brasil.
-É considerado um dos melhores centros universitários do país, tendo diversos cursos com nota máxima na avaliação do MEC.
+Resposta: O Centro Universitário IESB é uma instituição privada de ensino superior com sede em Brasília. Possui três campi no Distrito Federal e Polos de apoio presencial em todas as regiões do Brasil. É considerado um dos melhores centros universitários do país, tendo diversos cursos com nota máxima na avaliação do MEC.
 
-## Horários de Funcionamento:
+Pergunta: Quais são os horários de funcionamento?
 
+Resposta:
 - Segunda à sexta: das 07:00 às 22:30
 - Sábado: das 08:00 às 12:00
 - Domingo: Fechado
 
-## Formas de Contato:
+Pergunta: Quais são as formas de contato?
 
+Resposta:
 - Telefones: 3340-3747 (Brasília); 0800-602-3747 (demais regiões)
 - WhatsApp: (61) 3340-3747
 - E-mail: atendimento@iesb.br
 - Site: www.iesb.br
 
-## Endereços:
+Pergunta: Quais são os endereços?
 
+Resposta:
 - Campus Sul (Edson Machado): SGAS Quadra 613/614, Lotes 97 e 98, Via L2 Sul - Asa Sul, Brasília - DF
 - Campus Norte (Giovanna Rímoli): SGAN Quadra 609, Módulo D, Via L2 Norte - Asa Norte, Brasília - DF
 - Campus Ceilândia (Liliane Barbosa): QNN 31, Áreas Especiais B/C/D/E - Ceilândia Norte, Ceilândia - DF
 
-## Estados com Polos de apoio presencial:
+Pergunta: Quais estados possuem Polos de apoio presencial:
 
-Bahia, Ceará, Goiás, Distrito Federal, Maranhão, Mato Grosso do Sul, Minas Gerais, Pará, Paraná, Pernambuco, Rio de Janeiro, Rio Grande do Sul e São Paulo.
+Resposta: Os estados com Polos presenciais são: Bahia, Ceará, Goiás, Distrito Federal, Maranhão, Mato Grosso do Sul, Minas Gerais, Pará, Paraná, Pernambuco, Rio de Janeiro, Rio Grande do Sul e São Paulo.
 
-## Cursos de Graduação:
+Pergunta: Como funciona a modalidade presencial?
 
-### Modalidade presencial:
+Resposta: A modalidade presencial refere-se à realização de cursos, treinamentos, ou outras atividades educativas em um local físico específico, onde os participantes e instrutores se encontram face a face para interações diretas. Isso permite uma experiência de aprendizado mais imersiva e colaborativa, com a possibilidade de interações imediatas e feedback em tempo real.
 
-Por área: Administração e Negócios - Administração; Ciências Contábeis; Gastronomia; Gestão Comercial; Gestão de Recursos Humanos; Gestão Financeira; Gestão Pública. Artes e Design - Arquitetura e Urbanismo; Cinema e Mídias Digitais; Design de Animação; Design Gráfico; Design de Interiores; Design de Moda; Design de Produto Digital; Teatro. Comunicação Social - Escrita Criativa; Jornalismo; Publicidade e Propaganda. Direito e Política - Direito; Relações Internacionais. Educação - Pedagogia. Engenharias - Engenharia Civil; Engenharia Elétrica; Engenharia de Computação; Engenharia de Software. Saúde - Biomedicina; Educação Física; Enfermagem; Farmácia; Fisioterapia; Nutrição; Odontologia; Psicologia; Terapia Ocupacional. Tecnologia - Análise e Desenvolvimento de Sistemas; Banco de Dados, Big Data e Ciência de Dados; Big Data e Inteligência Analítica; Ciência da Computação; Ciência de Dados e Inteligência Artificial; Computação na Nuvem e Big Data; Defesa Cibernética; Gestão de Tecnologia da Informação; Inteligência Artificial; Jogos Digitais; Segurança da Informação.
+Pergunta: O que significa modalidade EaD?
 
-### Modalidade EaD:
+Resposta: EaD significa Educação a Distância, que é uma modalidade de ensino na qual os alunos não precisam estar fisicamente presentes em uma sala de aula tradicional; em vez disso, eles podem aprender de forma remota e utilizar tecnologias de comunicação para interagir e realizar atividades educacionais.
 
-Por área: Administração e Negócios - Administração; Ciências Contábeis; Ciências Econômicas; Empreendedorismo; Finanças; Gastronomia; Gestão Comercial; Gestão de Pessoas e Equipes; Gestão de Negócios e Inovação; Gestão de Produção Industrial; Gestão de Recursos Humanos; Gestão do Agronegócio; Gestão Financeira; Gestão Hospitalar; Gestão Pública; Logística; Mercado Financeiro e de Capitais; Processos Gerenciais; Secretariado. Artes e Design - Design de Moda. Comunicação Social - Gestão de Marketing; Gestão de Redes Sociais; Jornalismo; Marketing Digital; Produção Audiovisual. Direito e Política - Gestão de Serviços Jurídicos. Educação - História (Licenciatura); Matemática (Licenciatura); Letras: Português (Licenciatura); Pedagogia, Pedagogia: 2ª Licenciatura. Engenharias - Engenharia de Software. Saúde - Educação Física; Estética e Cosmética. Tecnologia - Análise e Desenvolvimento de Sistemas; Automação Industrial; Banco de Dados e Armazenamento de Big Data; Big Data e Inteligência Analítica; Internet das Coisas; Redes de Computadores; Segurança da Informação; Sistemas de Informação.
+Pergunta: Como funciona a modalidade híbrida?
 
-### Modalidade Híbrida:
+Resposta: A modalidade híbrida é um método que combina elementos do ensino presencial e do ensino à distância. Nessa abordagem, parte das atividades ocorre no ambiente físico, enquanto outra parte é realizada online, permitindo flexibilidade e aproveitando as vantagens de ambos os formatos.
 
-Por área: Artes e Design - Design de Interiores; Design Gráfico. Comunicação Social - Publicidade e Propaganda. Engenharias - Engenharia Civil; Engenharia Elétrica. Saúde - Biomedicina; Educação Física; Farmácia; Gerontologia; Nutrição; Terapia Ocupacional.
+Pergunta: Quais são os cursos de graduação na modalidade presencial?
 
-## Cursos de Pós-graduação:
+Resposta: Por área: Administração e Negócios - Administração; Ciências Contábeis; Gastronomia; Gestão Comercial; Gestão de Recursos Humanos; Gestão Financeira; Gestão Pública. Artes e Design - Arquitetura e Urbanismo; Cinema e Mídias Digitais; Design de Animação; Design Gráfico; Design de Interiores; Design de Moda; Design de Produto Digital; Teatro. Comunicação Social - Escrita Criativa; Jornalismo; Publicidade e Propaganda. Direito e Política - Direito; Relações Internacionais. Educação - Pedagogia. Engenharias - Engenharia Civil; Engenharia Elétrica; Engenharia de Computação; Engenharia de Software. Saúde - Biomedicina; Educação Física; Enfermagem; Farmácia; Fisioterapia; Nutrição; Odontologia; Psicologia; Terapia Ocupacional. Tecnologia - Análise e Desenvolvimento de Sistemas; Banco de Dados, Big Data e Ciência de Dados; Big Data e Inteligência Analítica; Ciência da Computação; Ciência de Dados e Inteligência Artificial; Computação na Nuvem e Big Data; Defesa Cibernética; Gestão de Tecnologia da Informação; Inteligência Artificial; Jogos Digitais; Segurança da Informação.
 
-### Modalidade Presencial:
+Pergunta: Quais são os cursos de graduação na modalidade EaD?
 
-Por área: Administração e Negócios - Transformação Digital. Artes e Design - UX Design. Comunicação Social - MBA em Marketing e Comunicação Digital. Direito e Política - Direito Civil e Processual Civil com Ênfase em Direito da Família e Sucessões. Saúde - Nutrição e Estética. Tecnologia - Análise de Dados para Gestão Municipal; Análise e Desenvolvimento de Sistemas; Aplicativos Móveis; Banco de Dados; Business Intelligence; Ciência de Dados e Suas Aplicações; Geoanalytics; Inteligência Artificial Aplicada.
+Resposta: Por área: Administração e Negócios - Administração; Ciências Contábeis; Ciências Econômicas; Empreendedorismo; Finanças; Gastronomia; Gestão Comercial; Gestão de Pessoas e Equipes; Gestão de Negócios e Inovação; Gestão de Produção Industrial; Gestão de Recursos Humanos; Gestão do Agronegócio; Gestão Financeira; Gestão Hospitalar; Gestão Pública; Logística; Mercado Financeiro e de Capitais; Processos Gerenciais; Secretariado. Artes e Design - Design de Moda. Comunicação Social - Gestão de Marketing; Gestão de Redes Sociais; Jornalismo; Marketing Digital; Produção Audiovisual. Direito e Política - Gestão de Serviços Jurídicos. Educação - História (Licenciatura); Matemática (Licenciatura); Letras: Português (Licenciatura); Pedagogia, Pedagogia: 2ª Licenciatura. Engenharias - Engenharia de Software. Saúde - Educação Física; Estética e Cosmética. Tecnologia - Análise e Desenvolvimento de Sistemas; Automação Industrial; Banco de Dados e Armazenamento de Big Data; Big Data e Inteligência Analítica; Internet das Coisas; Redes de Computadores; Segurança da Informação; Sistemas de Informação.
 
-### Modalidade EaD:
+Pergunta: Quais são os cursos de graduação na modalidade híbrida?
 
-Por área: Administração e Negócios - Administração Pública; Controladoria, Auditoria e Perícia Contábil; Gestão de Projetos; Gestão Estratégica de Pessoas e Coaching; MBA em Finanças. Comunicação Social - Gestão Estratégica de Marketing; Marketing Digital. Educação - Docência na Educação Superior; Psicopedagogia Institucional e Clínica. Tecnologia - Big Data, BI e Analytics Aplicados aos Negócios; Segurança da Informação.
+Resposta: Por área: Artes e Design - Design de Interiores; Design Gráfico. Comunicação Social - Publicidade e Propaganda. Engenharias - Engenharia Civil; Engenharia Elétrica. Saúde - Biomedicina; Educação Física; Farmácia; Gerontologia; Nutrição; Terapia Ocupacional.
 
-### Modalidade Híbrida:
+Pergunta: Quais são as opções disponíveis para cursos de pós-graduação?
 
-Por área: Ciências Humanas e Sociais - Governança e Relações Institucionais Público-Privadas. Saúde - Enfermagem em Terapia Intensiva; Método Dança Vital - Dançaterapia; Psicomotricidade.
+Resposta: As opções para cursos de pós-graduação incluem programas em diversas áreas de estudo, como mestrados, doutorados e especializações, oferecidas tanto por instituições nacionais quanto internacionais, permitindo a continuidade da educação e o aprofundamento do conhecimento em um campo específico.
 
-## Cursos de Mestrado:
+Pergunta: Quais são os cursos de Pós-graduação na modalidade presencial?
 
-Os cursos de mestrado ofertados pelo IESB são: Direitos Sociais e Processos Reivindicatórios, e Gestão Estratégica de Organizações.
+Resposta: Por área: Administração e Negócios - Transformação Digital. Artes e Design - UX Design. Comunicação Social - MBA em Marketing e Comunicação Digital. Direito e Política - Direito Civil e Processual Civil com Ênfase em Direito da Família e Sucessões. Saúde - Nutrição e Estética. Tecnologia - Análise de Dados para Gestão Municipal; Análise e Desenvolvimento de Sistemas; Aplicativos Móveis; Banco de Dados; Business Intelligence; Ciência de Dados e Suas Aplicações; Geoanalytics; Inteligência Artificial Aplicada.
+
+Pergunta: Quais são os cursos de Pós-graduação na modalidade EaD?
+
+Resposta: Por área: Administração e Negócios - Administração Pública; Controladoria, Auditoria e Perícia Contábil; Gestão de Projetos; Gestão Estratégica de Pessoas e Coaching; MBA em Finanças. Comunicação Social - Gestão Estratégica de Marketing; Marketing Digital. Educação - Docência na Educação Superior; Psicopedagogia Institucional e Clínica. Tecnologia - Big Data, BI e Analytics Aplicados aos Negócios; Segurança da Informação.
+
+Pergunta: Quais são os cursos de Pós-graduação na modalidade híbrida?
+
+Resposta: Por área: Ciências Humanas e Sociais - Governança e Relações Institucionais Público-Privadas. Saúde - Enfermagem em Terapia Intensiva; Método Dança Vital - Dançaterapia; Psicomotricidade.
+
+Pergunta: Quais são os cursos de mestrado?
+
+Resposta: Os cursos de mestrado ofertados pelo IESB são: Direitos Sociais e Processos Reivindicatórios, e Gestão Estratégica de Organizações.

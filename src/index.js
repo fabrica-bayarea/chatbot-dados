@@ -20,7 +20,7 @@ try {
   const splitter = new RecursiveCharacterTextSplitter({
     // https://js.langchain.com/v0.1/docs/modules/data_connection/document_transformers/#get-started-with-text-splitters
     chunkSize: 800,
-    chunkOverlap: 20,
+    chunkOverlap: 200,
   });
 
   const docOutput = await splitter.splitDocuments(docs);
