@@ -3,12 +3,12 @@ or replace function public.handle_new_user () returns trigger language plpgsql s
 set
   search_path = '' as $$
 begin
-  insert into public.profiles (id, name, picture, email)
+  insert into public.profiles (id, email, name, picture)
   values (
     new.id,
-    new.raw_user_meta_data ->> 'name',
-    new.raw_user_meta_data ->> 'picture',
-    new.email
+    coalesce(new.email ,''),
+    coalesce(new.raw_user_meta_data ->> 'name', 'Anônimo'),
+    coalesce(new.raw_user_meta_data ->> 'picture', '')
   );
   return new;
 end;
