@@ -1,7 +1,9 @@
 drop view if exists support_view;
 
 create view
-  support_view as
+  support_view
+  with (security_invoker=on)
+  as
 select
   s.*,
   (

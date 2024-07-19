@@ -1,7 +1,9 @@
 drop view if exists conversations_view;
 
 create view
-  conversations_view as
+  conversations_view
+  with (security_invoker=on)
+  as
 select
   c.*,
   (

@@ -10,6 +10,16 @@ create table
     constraint conversations_user_id_fkey foreign key (owner_id) references auth.users (id) on update cascade on delete cascade
   ) tablespace pg_default;
 
+  alter policy "read access"
+  on "public"."conversations"
+  to authenticated, postgres, supabase_admin
+  using (true);
+
+  alter policy "insert access"
+  on "public"."conversations"
+  to authenticated, postgres, supabase_admin
+  with check (true);
+
 -- create trigger after_conversation_status_update before
 -- update of status on conversations for each row
 -- execute function handle_conversation_status_update ();
@@ -26,6 +36,16 @@ create table
     constraint ai_messages_pkey primary key (id),
     constraint ai_messages_conversation_id_fkey foreign key (conversation_id) references conversations (id) on update cascade on delete cascade
   ) tablespace pg_default;
+
+  alter policy "openai read access"
+  on "public"."ai_messages"
+  to authenticated
+  using (true);
+
+  alter policy "insert data"
+  on "public"."ai_messages"
+  to authenticated
+  with check (true);
 
 -- create trigger before_insert_ai_messages before insert on ai_messages for each row
 -- execute function upsert_conversation ();
@@ -45,6 +65,16 @@ create table
     constraint human_messages_user_id_fkey foreign key (owner_id) references auth.users (id) on update cascade on delete cascade
   ) tablespace pg_default;
 
+  alter policy "read access"
+  on "public"."human_messages"
+  to authenticated, authenticator, supabase_admin
+  using (true);
+
+  alter policy "insert access"
+  on "public"."human_messages"
+  to authenticated, authenticator, postgres, supabase_admin
+  with check (true);
+
 -- create trigger before_insert_human_messages before insert on human_messages for each row
 -- execute function upsert_conversation ();
 
@@ -60,6 +90,11 @@ create table
     constraint profiles_pkey primary key (id),
     constraint profiles_id_fkey foreign key (id) references auth.users (id) on update cascade on delete cascade
   ) tablespace pg_default;
+
+  alter policy "all access"
+  on "public"."profiles"
+  to authenticated, authenticator, dashboard_user, postgres, service_role, supabase_admin, supabase_auth_admin, supabase_storage_admin
+  using (true);
 
 drop table if exists public.support;
 
@@ -80,6 +115,11 @@ create table
     constraint support_accepted_by_fkey foreign key (accepted_by) references auth.users (id) on update cascade on delete cascade,
     constraint support_closed_by_fkey foreign key (closed_by) references auth.users (id) on update cascade on delete cascade
   ) tablespace pg_default;
+
+  alter policy "all access"
+  on "public"."support"
+  to authenticated, authenticator, dashboard_user, postgres, supabase_admin
+  using (true);
 
 -- create trigger after_support_status_update before
 -- update of status on support for each row
