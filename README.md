@@ -64,7 +64,8 @@ Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
 │
 ├── requirements.txt
 ├── README.md
-└── .env```
+└── .env
+```
 
 ## Dependências
 
