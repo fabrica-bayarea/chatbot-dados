@@ -1,10 +1,13 @@
 -- Enable the pgvector extension to work with embedding vectors
 create extension vector;
 
+-- Enable the UUID extension to work with UUIDs
+create extension if not exists uuid-ossp; 
+
 -- Create a table to store your documents
 create table
   documents (
-    id bigserial primary key,
+    id uuid default uuid_generate_v4() primary key, -- unique identifier for the document
     content text, -- corresponds to Document.pageContent
     metadata jsonb, -- corresponds to Document.metadata
     embedding vector (1536) -- 1536 works for OpenAI embeddings, change if needed
