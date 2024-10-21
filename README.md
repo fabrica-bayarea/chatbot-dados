@@ -21,25 +21,42 @@ O script principal (`index.py`) realiza as seguintes tarefas:
 
 1. Clone o repositório:
 
-`git clone https://github.com/fabrica-bayarea/chatbot-dados.git`
+```
+git clone https://github.com/fabrica-bayarea/chatbot-dados.git
+cd chatbot-dados
+```
 
-`cd chatbot-dados`
+2. Configure o ambiente virtual Python:
 
-`cd src`
+```
+python -m venv venv
+```
 
-2. Instale as dependências:
+3. Ative o ambiente virtual:
 
-`pip install -r requirements.txt`
+- No Windows:
+  ```
+  venv\Scripts\activate
+  ```
+- No macOS e Linux:
+  ```
+  source venv/bin/activate
+  ```
 
-3. Configure as variáveis de ambiente:
+4. Instale as dependências:
+
+```
+pip install -r requirements.txt
+```
+
+5. Configure as variáveis de ambiente:
 Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
 
-`OPENAI_API_KEY=chave_da_api_do_openai`
-
-`SUPABASE_PRIVATE_KEY=chave_privada_do_supabase`
-
-`SUPABASE_URL=url_do_supabase`
-
+```
+OPENAI_API_KEY=chave_da_api_do_openai
+SUPABASE_PRIVATE_KEY=chave_privada_do_supabase
+SUPABASE_URL=url_do_supabase
+```
 
 ## Uso
 
@@ -47,13 +64,16 @@ Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
 
 2. Execute o script:
 
-`python src/index.py`
+```
+python src/index.py
+```
 
 3. O script carregará os documentos, criará embeddings e os armazenará no Supabase.
 
 ## Estrutura do Projeto
 
-```chatbot-dados/
+```
+chatbot-dados/
 │
 ├── src/
 │   ├── index.py
@@ -69,9 +89,9 @@ Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
 
 ## Dependências
 
-- python-dotenv==1.0.0
-- langchain==0.1.0
-- langchain-community==0.0.13
-- langchain-openai==0.0.2
-- supabase==0.4.7
-- openai==1.6.1
+- python-dotenv==1.0.1
+- langchain==0.3.4
+- langchain-community==0.3.3
+- langchain-openai==0.2.3
+- supabase==2.9.1
+- openai==1.52.0
