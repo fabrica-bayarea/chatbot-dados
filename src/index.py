@@ -3,8 +3,9 @@ from dotenv import load_dotenv
 from langchain_community.document_loaders import DirectoryLoader, TextLoader
 from langchain_community.vectorstores import SupabaseVectorStore
 from langchain_openai import OpenAIEmbeddings
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from supabase import create_client
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+
+from supabase import create_client, Client
 
 load_dotenv()
 
@@ -31,7 +32,8 @@ try:
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=500,
         chunk_overlap=50,
-        separators=["\n\n", "\n", ".", "?", "!", " ", ""]
+        is_separator_regex=False,
+        separators=["\n\n", "\n", ".", "?", "!", " ", ""],
     )
 
     doc_output = splitter.split_documents(docs)
@@ -44,15 +46,17 @@ try:
     if not supabase_url or not supabase_key:
         raise ValueError("As variáveis de ambiente SUPABASE_URL e SUPABASE_PRIVATE_KEY devem ser definidas.")
 
-    client = create_client(supabase_url, supabase_key)
+    Client = create_client(supabase_url, supabase_key)
 
     # Criação do vetor store
-    embeddings = OpenAIEmbeddings()
+    embeddings = OpenAIEmbeddings(
+        model="text-embedding-3-small"
+    )
 
     vector_store = SupabaseVectorStore.from_documents(
-        doc_output,
-        embeddings,
-        client=client,
+        documents=doc_output,
+        embedding=embeddings,
+        client=Client,
         table_name='documents',
         query_name='match_documents'
     )
