@@ -2,7 +2,7 @@
 create extension vector;
 
 -- Enable the UUID extension to work with UUIDs
-create extension if not exists uuid-ossp; 
+create extension if not exists "uuid-ossp"; 
 
 -- Create a table to store your documents
 create table
@@ -14,7 +14,7 @@ create table
   );
 
 -- Create a function to search for documents
-create function match_documents (
+create or replace function match_documents (
   query_embedding vector (1536),
   match_count int default null,
   filter jsonb default '{}'
